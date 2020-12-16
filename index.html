@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1920">
+    <title>acoustic</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    
+
+    <div id="header-container">
+        <header id="header">
+           <div id="logo"><a href="#">acoustic</a></div>
+            
+            <ul>
+                <li><a href="#">მთავარი</a></li>
+                <li><a href="#">ჩვენს შესახებ</a></li>
+                <li><a href="#">გიტარის ყიდვა</a></li>
+            </ul>
+            
+        </header>
+
+        <div id="scroll-down">   
+            <img src="img/arrrow-down.svg" alt="">
+            
+        </div>
+    </div>
+
+
+    <div id="main-body">
+        <div class="body-flex-container">
+            <div id="product-filter">
+                <h3>გაფილტვრა</h3>
+                <ul>
+                    
+                    <ul id="guitar-type">
+                        <li class="subname">გიტარის ტიპი</li>
+                      
+
+                        <li>
+                            <span class="radio-container" id="1">
+                                <input type="radio">
+                                <span class="custom-radio"></span>      
+                            </span>
+                            <label for="1">ელექტრო გიტარა</label>
+                        </li>
+                        <li>
+                            <span class="radio-container" id="2">
+                                <input type="radio">
+                                <span class="custom-radio"></span>      
+                            </span>
+                            <label for="2">ბას გიტარა</label>
+                        </li>
+                        <li>
+                            <span class="radio-container" id="3">
+                                <input type="radio">
+                                <span class="custom-radio"></span>      
+                            </span>
+                            <label for="3">აკუსტიკური გიტარა</label>
+                        </li>
+                        <li>
+                            <span class="radio-container" id="4">
+                                <input type="radio">
+                                <span class="custom-radio"></span>      
+                            </span>
+                            <label for="4">კლასიკური გიტარა</label>
+                        </li>
+                        <li>
+                            <span class="radio-container" id="5">
+                                <input type="radio">
+                                <span class="custom-radio"></span>      
+                            </span>
+                            <label for="5">ელექტრო-აკუსტიკური გიტარა</label>
+                        </li>
+                        <li>
+                            <span class="radio-container" id="6">
+                                <input type="radio">
+                                <span class="custom-radio"></span>      
+                            </span>
+                            <label for="6">ელექტრო-კლასიკური გიტარა</label>
+                        </li>
+                        <li>
+                            <span class="radio-container" id="7">
+                                <input type="radio">
+                                <span class="custom-radio"></span>      
+                            </span>
+                            <label for="7">აქსესუარები</label>
+                        </li>
+                        <li>
+                            <span class="radio-container" id="8">
+                                <input type="radio">
+                                <span class="custom-radio"></span>      
+                            </span>
+                            <label for="8">ხმის გამაძლიერებლები</label>
+                        </li>
+
+                    </ul>
+
+                    <ul id="price-diapason">
+                        <li class="subname">ფასი</li>
+                        
+                        <input type="text" placeholder="-დან" style="margin-left:0px;">
+                        -
+                        <input type="text" placeholder="-მდე">
+                    </ul>
+
+                </ul>
+            </div>
+
+            <div id="product-container">
+               <div id="product-container-background"></div>
+
+                
+                <div class="product-flex-container">
+                    <div class="flex-container">
+                        <div>
+
+                        </div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="flex-container">
+                        <div>
+
+                        </div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="flex-container">
+                        <div>
+
+                        </div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+
+                <div class="product-flex-container">
+                    <div class="flex-container">
+                        <div>
+
+                        </div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="flex-container">
+                        <div>
+
+                        </div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="flex-container">
+                        <div>
+
+                        </div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+
+                <div class="product-flex-container">
+                    <div class="flex-container">
+                        <div>
+
+                        </div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="flex-container">
+                        <div>
+
+                        </div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="flex-container">
+                        <div>
+
+                        </div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+
+                <div class="product-flex-container">
+                    <div class="flex-container">
+                        <div>
+
+                        </div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="flex-container">
+                        <div>
+
+                        </div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="flex-container">
+                        <div>
+
+                        </div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+
+
+    <script>
+        // #product-container-background style
+        document.querySelector('#product-container-background').style.left = (document.querySelector('#product-container').offsetWidth - document.querySelector('#product-container').offsetWidth * 0.9)/2 + 'px';
+    </script>
+    <!--<script src="https://unpkg.com/vue@next"></script>-->
+    <script src="js/app.js"></script>
+</body>
+</html>
